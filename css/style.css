@@ -1,7 +1,36 @@
 body {
-    background-color: brown;
+  background: url('../img/bg2.jpg');
+  width: 100%;
+  background-size: cover;
+  background-color: black;
 }
 h1 {
-    color: yellow;
+    color: #efd032;
     justify-content: center;
+    font-family: 'RuneScape UF', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50pt;
+}
+@font-face {
+    font-family: 'RuneScape UF';
+    src: url('../fonts/RuneScape-UF.eot');
+    src: url('../fonts/RuneScape-UF.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RuneScape-UF.woff2') format('woff2'),
+        url('../fonts/RuneScape-UF.woff') format('woff'),
+        url('../fonts/RuneScape-UF.ttf') format('truetype'),
+        url('../fonts/RuneScape-UF.svg#RuneScape-UF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.jumbotron {
+  padding-top: 150px;
+  background: transparent;
+  text-align: center;
+  border: 1px, white;
+}
+.navbar {
+  font-family: 'RuneScape UF', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
